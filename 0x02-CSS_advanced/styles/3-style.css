@@ -2,10 +2,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-body, a {
-	color: #161616;
-}
-
 .visually-hidden {
 	display: none;
 }
@@ -20,5 +16,9 @@ body, a {
 }
 .card-category, .section-tagline {
 	color: var(--color-primary);
+}
+
+body, a {
+	color: var(--text-color);
 }
 
