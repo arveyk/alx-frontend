@@ -33,7 +33,7 @@ html {
 }
 
 .section-header {
-	align: var(--section-header-align);
+	align-content: var(--section-header-align);
 }
 
 .card-category, .section-tagline {
