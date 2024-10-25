@@ -44,7 +44,7 @@ html {
 	color: var(--color-primary);
 }
 
-a[href] {
+a:any-link {
 	color: var(--text-color);
 	text-decoration: none;
 }
