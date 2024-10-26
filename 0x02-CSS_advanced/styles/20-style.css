@@ -289,7 +289,7 @@ ul.row {
 	text-align: right;
 }
 .row::after {
-	display: inline-block;
-	clear: both;
 	content: none;
+	display: table;
+	clear: inherit;
 }
