@@ -310,15 +310,15 @@ ul.row {
 	color: var(--text-color);
 }
 
-[class="card-service"] [class="card-title"] {
+[class="card-services"] [class="card-title"] {
 	margin: 0;
 }
-[class="card-service"] a {
+[class="card-services"] a {
 	display: block;
 	padding: 2rem;
 	background: var(--color-light-grey);
 }
-[class="card-service"] a:hover {
+[class="card-services"] a:hover {
 	color: var(--color-white);
 	background: var(--color-primary);
 	text-decoration: none;
