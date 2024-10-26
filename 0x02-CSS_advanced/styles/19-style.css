@@ -226,10 +226,10 @@ html {
 }
 
 .section-tagline {
+	margin: var(--section-tagline-margin);
 	font-family: var(--font-family-title);
 	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
-	margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -265,7 +265,7 @@ html {
 	color: var(--nav-item-link-hover);
 }
 
-.row ul {
+ul.row {
 	margin: 0;
 	padding: 0;
 	list-style: none;
