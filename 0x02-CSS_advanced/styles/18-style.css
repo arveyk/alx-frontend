@@ -156,7 +156,7 @@ html {
 	--nav-item-font-size: var(--font-size-medium);
 	--nav-item-letter-spacing: 0.04rem;
 	--nav-item-display: inline-block;
-	--nav-item-margin: 0 0 3rem 0;
+	--nav-item-margin: 0 0 3rem;
 	--nav-item-link-hover: var(--color-primary);
 }
 
@@ -238,7 +238,7 @@ html {
 	padding: var(--footer-padding);
 }
 .navbar-menu {
-	float: left;
+	float: right;
 }
 .nav {
 	margin: 0;
