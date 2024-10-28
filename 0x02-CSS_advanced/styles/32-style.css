@@ -476,11 +476,14 @@ ul.row {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
-	transition: var(--transition-duration);
+	transition: transform var(--transition-duration);
 }
 .card-work:hover .card-outer {
 	transform: scale(0.95);
 }
 .button:hover {
-	transition: background-color color var(--transition-duration) ;
+	transition: background-color var(--transition-duration) ;
+}
+.button:hover {
+	transition: color var(--transition-duration) ;
 }
