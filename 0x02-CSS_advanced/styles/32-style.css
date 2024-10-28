@@ -433,7 +433,7 @@ ul.row {
 	left: -0.1rem;
 	right: -0.1rem;
 	z-index: 1;
-	transition: var(--transition-cubic-bezier);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-inner:hover {
 	background: rgba(0, 0, 0, 0.7);
@@ -475,8 +475,7 @@ ul.row {
 }
 
 .card-work:hover .card-image {
-	transform: scale(1.2);
-	transition: transform var(--transition-duration);
+	transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer {
 	transform: scale(0.95);
