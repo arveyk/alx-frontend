@@ -295,7 +295,8 @@ html {
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
 }
-nav .nav-link::before {
+.nav .nav-link::before,
+.nav .nav-link::after {
 	content: empty;
 	position: absolute;
 	top: 0;
@@ -306,10 +307,11 @@ nav .nav-link::before {
 	width: 0;
 	height: 0.2rem;
 }
-.nav .nav-link::before:hover {
+.nav .nav-item:hover + .nav-link::before {
 	background-color: var(--color-primary);
 	width: 100%;
 }
+
 ul.row {
 	margin: 0;
 	padding: 0;
