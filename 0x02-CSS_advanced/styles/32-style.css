@@ -482,6 +482,5 @@ ul.row {
 	transform: scale(0.95);
 }
 .button:hover {
-	transition: color var(--transition-duration) ;
-	transition: background-color var(--transition-duration) ;
+	transition: background-color color var(--transition-duration) ;
 }
